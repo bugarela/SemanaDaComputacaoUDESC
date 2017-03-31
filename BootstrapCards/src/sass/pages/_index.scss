@@ -1,0 +1,79 @@
+/*******************************************************************************
+Home Page Styles
+*******************************************************************************/
+
+.content-home {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .card-big {
+        h3 {
+            font-weight: $font-normal;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.card-labels {
+    margin-top: 25px;
+    .card-label {
+        text-align: center;
+    }
+    .card-label .label {
+        font-size: 13px;
+        font-weight: $font-light;
+        display: inline-block;
+        min-width: 50%;
+        padding: 7px 0;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+}
+
+.card-stamps {
+    margin-bottom: 15px;
+    .card-stamp {
+        font-family: $body-font-stack;
+        font-weight: $font-light;
+        letter-spacing: 1px;
+        color: white;
+        border: 5px solid #fff;
+        padding: 10px;
+        background-color: #434343;
+        box-shadow: 0 0 0 3px #434343;
+    }
+    h4.card-stamp {
+        font-size: 16px;
+    }
+    h5.card-stamp {
+        font-size: 15px;
+    }
+    h6.card-stamp {
+        font-size: 14px;
+    }
+}
+
+.card-blockquote {
+    border-left: 5px solid #d6d6d6;
+    border-right: 5px solid #d6d6d6;
+    background-color: #f6f6f6;
+}
+
+.card-projects {
+    .project {
+        margin-top: 25px;
+        .project-details {
+            font-family: $body-font-stack;
+            font-size: 15px;
+            text-align: center;
+            color: #696969;
+        }
+    }
+}
+
+@include small-screens-only {
+    .card-label .label {
+        width: 100%;
+    }
+}

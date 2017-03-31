@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-cards",
+  "authors": [
+    "Suyash Lakhotia <suyashlakhotia@gmail.com>"
+  ],
+  "description": "Bootstrap template implementing card-based design.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/SuyashLakhotia/BootstrapCards",
+  "private": true,
+  "dependencies": {
+    "normalize-css": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "animate.css": "latest",
+    "wow": "latest",
+    "font-awesome": "latest",
+    "jquery-easing-original": "latest"
+  }
+}
