@@ -1,6 +1,8 @@
 html, body {
   overflow-x: hidden;
-  width: 100%;
+  max-width: none;
+  width: auto;
+  min-width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -601,23 +603,26 @@ Blog Post Styles
 }
 
 table {
-	font-family: $body-font-stack;
-	border-collapse: collapse;
-	width: 100%;
+    font-family: "Raleway", "Lucida Grande", sans-serif;
+    border-collapse: collapse;
+    max-width: none;
+    width: 100%; 
 }
 
 td {
-	width: 15%;
-	border: 1px solid #DDD;
-	text-align: center;
-	padding:2%;
+    width: 15%;
+    border: 1px solid #DDD;
+    text-align: center;
+    padding:2%;
 }
 
 th {
-	width: 15%;
-	border: 1px solid #DDD;
-	text-align: center;
-	padding:2%;
-	background-color: #EEE;
+    
+    width: 15%;
+    border: 1px solid #DDD;
+    text-align: center;
+    padding:2%;
+    background-color: #EEE;
 }
-	
+
+
