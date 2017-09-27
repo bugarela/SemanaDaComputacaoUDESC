@@ -75,7 +75,7 @@ em {
   font-style: italic;
 }
 
-strong {
+b,strong {
   font-weight: 700;
 }
 
@@ -625,4 +625,53 @@ th {
     background-color: #EEE;
 }
 
+.borderTable{
+    width: 30%;
+    border: 1px solid #DDD;
+    text-align: center;
+    padding:2%;
+    background-color: #EEE;
+}
+				
+.tableLink{
+	text-decoration: none;
+    font-weight: bold;
+}
 
+.tableLink:link {
+    color: #14248a;
+}
+
+.tableLink:visited {
+    color: #14248a;
+}
+
+
+.tableLink:hover {
+    color: #000;
+}
+
+.tableLink:active {
+    color: blue;
+}
+
+.clickableText{
+    font-weight: bold;
+}
+
+.clickableText:link {
+    color: #14248a;
+}
+
+.clickableText:visited {
+    color: #14248a;
+}
+
+
+.clickableText:hover {
+    color: #000;
+}
+
+.clickableText:active {
+    color: blue;
+}

@@ -1,0 +1,83 @@
+<table>
+	<tr>
+		<th></th>
+		<th>Segunda</th>
+		<th>Terça</th>
+		<th>Quarta</th>
+		<th>Quinta</th>
+		<th>Sexta</th>
+	</tr>
+	<tr>
+		<th>9h-12h</th>
+		<td rowspan = "2">Abertura</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		<td rowspan = "5">Tenda da Ciência</td>
+	</tr>
+	<tr>
+		<th>10h-12h</th>
+		
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		
+	</tr>
+	<tr>
+		<th>12h-13h30</th>
+		<td colspan="4">Intervalo</td>
+	</tr>
+	<tr>
+		<th>13h30-17h30</th>
+		<td rowspan = "2">Apresentações IC</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		
+	</tr>
+	<tr>
+		<th>14h-17h</th>
+		
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		<td>Minicurso</td>
+		
+	</tr>
+	<tr>
+		<th>17h-17h30</th>
+		<td colspan="5">Intervalo</td>
+	</tr>
+	<tr>
+		<th>17h30-18h30</th>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td rowspan = "5">Encontro Ex-Alunos</td>
+	</tr>
+	<tr>
+		<th>18h30-19h</th>
+		<td colspan="4">Coffee Break</td>
+	</tr>
+	<tr>
+		<th>19h-20h</th>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		
+	</tr>
+	<tr>
+		<th>20h-20h30</th>
+		<td colspan="4">Coffee Break</td>
+	</tr>
+	<tr>
+		<th>20h30-21h30</th>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		<td>Palestra</td>
+		
+	</tr>
+
+</table>
